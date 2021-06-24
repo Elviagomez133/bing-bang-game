@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1f3756;
+    background-image: radial-gradient(circle at top center, #1f3756, #7d82d9 200rem);
+    height: 100vh;
+    overflow: hidden;
+}
+
+

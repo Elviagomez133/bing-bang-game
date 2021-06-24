@@ -1,0 +1,9 @@
+.graph {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    margin-top: 3rem;
+    background-color: red;
+}

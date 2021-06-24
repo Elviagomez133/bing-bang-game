@@ -1,8 +1,11 @@
+import Header from "./Header";
+import Pentagon from "./Pentagon";
 
 function App() {
   return (
-    <div>
-        <h1>App Game</h1>
+    <div className="home">
+      <Header />
+      <Pentagon />
     </div>
   );
 }
