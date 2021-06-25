@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./button.css";
 import Modal from './Modal';
+import bg from "../images/image-rules-bonus.svg";
 
 class Button extends Component {
     constructor() {
@@ -33,7 +34,8 @@ class Button extends Component {
             <div className="button-container">
                 <div>
                     <Modal show={this.state.show} handleClose={this.hideModal}>
-                        <p>Modal</p>
+                        <h1 className="modal-title">RULES</h1>
+                        <img src={bg} className="modal-image" alt="pentagon"/>
                     </Modal>
                     <button className="button-rules" onClick={this.showModal}>RULES</button>
                 </div>

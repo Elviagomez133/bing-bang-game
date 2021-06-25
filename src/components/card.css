@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
+
+.score-card {
+    width: 180px;
+    height: 140px;
+    background-color: white;
+    border-radius: 25px;
+    grid-column: row-end 3;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
+}
+
+.score-text {
+    color: hsl(229, 64%, 46%);
+    font-size: 1rem;
+    padding-top: 10px;
+}

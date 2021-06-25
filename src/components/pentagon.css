@@ -2,8 +2,13 @@
     display: flex;
     align-content: center;
     justify-content: center;
-    width: 800px;
-    height: 400px;
+    width: 50%;
+    height: 50%;
     margin: auto;
-    margin-top: 7em;
+    margin-top: 6em;
+}
+
+.first-circle {
+    background-size: 600px;
+    background: red;
 }

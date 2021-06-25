@@ -1,4 +1,5 @@
 import './header.css'
+import Card from './Card';
 
 function Header() {
     return(
@@ -10,10 +11,7 @@ function Header() {
                 <p>LIZARD</p>
                 <p>SPOCK</p>
            </div>
-           <div className="score-card">
-                <h1 className="score-text">SCORE</h1>
-                <p>Number</p>
-           </div>
+          <Card />
        </div>
     );
 }
